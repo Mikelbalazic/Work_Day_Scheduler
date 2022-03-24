@@ -36,7 +36,7 @@ $(".saveBtn").on("click", function(){
 
     console.log(parentId, textAreaValue);
 
-   localStorage.setItem(time, textAreaValue);
+   localStorage.setItem(parentId, textAreaValue);
 
     
 })
